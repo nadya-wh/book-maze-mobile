@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kolyadko_polovtseva.book_maze.MainActivity">
+    <item
+        android:id="@+id/action_profile"
+        android:orderInCategory="100"
+        android:title="Profile" />
+    <item
+        android:id="@+id/action_reserved_books"
+        android:orderInCategory="100"
+        android:title="Reserved Books" />
+
+    <item
+        android:id="@+id/action_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search" />
+
+</menu>
